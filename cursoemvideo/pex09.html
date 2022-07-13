@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULADO</title>
+</head>
+<body>
+    <h1>Cidadania</h1>
+    Qual é seu país de origem?
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="Verificar" onclick="Verificar()">
+    <div id="resul"></div>
+    <script>
+        function Verificar(){
+            var eua = window.document.getElementById('pais')
+            var brasil = window.document.getElementById('pais')
+            var resul = window.document.getElementById('resul')
+            if(pais.value == 'eua'){
+                resul.innerHTML = 'Você é estrangeiro!'
+            }
+            else{
+                resul.innerHTML = 'Você é Brasileiro!'
+            }
+        }
+    </script>
+</body>
+</html>
