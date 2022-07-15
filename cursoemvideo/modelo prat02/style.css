@@ -1,10 +1,8 @@
 @charset "UTF-8";
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(72, 72, 197);
-}
-header{
- 
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(94, 94, 206);
+    font-size: 18px;
 }
 h1 {
     font-size: 22px;
